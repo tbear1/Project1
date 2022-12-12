@@ -1,0 +1,6 @@
+.card{
+    margin: auto;
+    margin-top: 6rem;
+    display: flex;
+    background-color: blue;
+}
