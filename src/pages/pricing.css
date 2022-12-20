@@ -1,6 +1,12 @@
-.card{
+#card{
     margin: auto;
     margin-top: 6rem;
     display: flex;
-    background-color: blue;
+    background-color: red;
+    border-color: burlywood;
+    border-width: .5rem;
+}
+#button1, #button2{
+    display: flex;
+    background-color: burlywood;
 }
