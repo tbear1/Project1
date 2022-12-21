@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
+import './paginate.css';
 
 
 //https://randomuser.me/api/
@@ -26,7 +27,7 @@ function Paginate() {
     }, []);
 
     return(
-        <div className='pagination'>
+        <div id='pagination'>
             <p>{userInfo}</p>
 
         </div>
